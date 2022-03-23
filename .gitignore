@@ -6,6 +6,8 @@
 *.lo
 *.o
 *.obj
+*.elf
+*.bin
 
 # Precompiled Headers
 *.gch
@@ -23,10 +25,22 @@
 # Compiled Static libraries
 *.lai
 *.la
-*.a
+# *.a
 *.lib
 
 # Executables
 *.exe
 *.out
 *.app
+*.bin
+
+# PROS FILES
+*.log
+bin/output.elf
+*.bin
+bin/output.bin
+bin/_pros_ld_timestamp.o
+*.ini
+compile_commands.json
+desktop.ini
+.vscode/*
