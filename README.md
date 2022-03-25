@@ -66,7 +66,7 @@ To use the template in your PROS project, you must first download the template z
 You can install it using the following commands in a terminal at the root of your project:
 
 ```bash
-# Import the zip to the PROS depot 
+# Import the zip to the PROS depot - the zip must be in the same directory as your current terminal path
 $ pros c fetch pros-grafana-lib@1.0.0.zip
 
 # Apply the library to your project
